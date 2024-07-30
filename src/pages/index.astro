@@ -31,15 +31,27 @@ import Layout from "../layouts/Layout.astro";
                 <h1 style="line-height: 1.3">Luis juan carlos lopéz beteta</h1>
               </a>
               <h2 class="mt-2 text-sm lg:text-lg font-medium text-neutral-400">
-                Experienced Front-End Engineer
+                Con más de 15 años de experiencia en tecnología de la
+                información, he desarrollado una sólida trayectoria como gerente
+                de IT. He liderado equipos de alto rendimiento y gestionado
+                proyectos tecnológicos innovadores que impulsan la eficiencia y
+                el crecimiento organizacional en industrias como servicios
+                industriales,financieros, salud y telecomunicaciones.
+                <br />
+                A lo largo de mi carrera, he demostrado habilidades excepcionales
+                en la gestión de infraestructura IT, ciberseguridad y optimización
+                de procesos. He liderado la migración exitosa de sistemas heredados
+                a la nube, mejorando la escalabilidad y reduciendo costos. También
+                he sido responsable de planificar y ejecutar estrategias de recuperación
+                ante desastres, asegurando la resiliencia organizacional.
               </h2>
 
               <a
                 data-ccursor
-                href="mailto:rusinvadym@gmail.com"
+                href="mailto:l2435073560101@gmail.com"
                 class="inline-flex transition-all border-neutral-700 hover:border-opacity-0 border-opacity-50 shadow rounded-md border backdrop-blur-xl bg-neutral-400/10 px-3 py-2.5 items-center text-white font-semibold group p-2 text-sm gap-x-2 mt-4"
               >
-                <span>Email me</span>
+                <span>Email de contacto</span>
                 <sapn
                   class="w-2 h-2 rounded-full bg-green-400 duration-1000 animate-pulse"
                 >
@@ -85,134 +97,142 @@ import Layout from "../layouts/Layout.astro";
               <h2
                 class="text-sm font-bold uppercase tracking-widest text-neutral-200 lg:sr-only"
               >
-                About
+                Sobre mi
               </h2>
             </div>
             <div>
               <div class="mb-4 space-y-4">
                 <p>
-                  In my current role as a Full Stack Engineer at Dutch Pet
-                  (Remote), I am at the forefront of designing and architecting
-                  dutch.com, leveraging a powerful stack including Shopify
-                  Storefront API, Admin API, Vue.JS, Node.JS, Liquid, Alpine.js,
-                  and Tailwind. My expertise extends to integrating with the
-                  ReCharge subscription system and collaborating closely with
-                  designers to ensure pixel-perfect layouts and user flows.
+                  Mi experiencia como líder de equipos de IT se centra en
+                  fomentar un ambiente colaborativo que impulsa el aprendizaje
+                  continuo y permite a los profesionales alcanzar su máximo
+                  potencial.<br />
+
+                  Estoy orientado a resultados, con habilidades analíticas y de
+                  resolución de problemas que me permiten abordar desafíos
+                  complejos.
                 </p>
 
                 <p>
-                  Looking forward to new challenges and exciting collaborations!
+                  En las siguientes secciones, detallo mi experiencia
+                  profesional, destacando los puestos que he ocupado, las
+                  funciones que he desempeñado y las tecnologías que he
+                  aprendido y utilizado en cada empresa.
                 </p>
               </div>
             </div>
-          </section>
-          <section
-            id="experience"
-            class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-            aria-label="Work experience"
-          >
-            <div
-              class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-3 backdrop-blur-lg md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+            <section
+              id="experience"
+              class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+              aria-label="Work experience"
             >
-              <h2
-                class="text-sm font-bold uppercase tracking-widest text-neutral-200 lg:sr-only"
+              <div
+                class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-3 backdrop-blur-lg md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
               >
-                Experience
-              </h2>
-            </div><div>
-              <ol class="group/list space-y-12">
-                {EXPERIENCE.map((experience) => <Experience {...experience} />)}
-              </ol>
-
-              <div class="mt-12">
-                <a
-                  data-ccursor
-                  class="inline-flex items-center leading-tight text-neutral-200 font-semibold group p-2 rounded px-3"
-                  aria-label="View Full Résumé"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  href="./resume.pdf"
+                <h2
+                  class="text-sm font-bold uppercase tracking-widest text-neutral-200 lg:sr-only"
                 >
-                  <span>
-                    <span
-                      class="border-b border-transparent pb-px transition group-hover:border-neutral-300 motion-reduce:transition-none"
-                    >
-                      View Full
-                    </span>
-                    <span class="whitespace-nowrap">
+                  Experiencia
+                </h2>
+              </div><div>
+                <ol class="group/list space-y-12">
+                  {
+                    EXPERIENCE.map((experience) => (
+                      <Experience {...experience} />
+                    ))
+                  }
+                </ol>
+
+                <div class="mt-12">
+                  <a
+                    data-ccursor
+                    class="inline-flex items-center leading-tight text-neutral-200 font-semibold group p-2 rounded px-3"
+                    aria-label="View Full Résumé"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    href="./resume.pdf"
+                  >
+                    <span>
                       <span
                         class="border-b border-transparent pb-px transition group-hover:border-neutral-300 motion-reduce:transition-none"
                       >
-                        Résumé
+                        View Full
                       </span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
-                        aria-hidden="true"
-                        ><path
-                          fill-rule="evenodd"
-                          d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                          clip-rule="evenodd"></path></svg
+                      <span class="whitespace-nowrap">
+                        <span
+                          class="border-b border-transparent pb-px transition group-hover:border-neutral-300 motion-reduce:transition-none"
+                        >
+                          Résumé
+                        </span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
+                          aria-hidden="true"
+                          ><path
+                            fill-rule="evenodd"
+                            d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
+                            clip-rule="evenodd"></path></svg
+                        ></span
                       ></span
-                    ></span
-                  ></a
-                >
+                    ></a
+                  >
+                </div>
               </div>
-            </div>
+            </section>
+            <footer class="max-w-md pb-16 text-sm text-neutral-500 sm:pb-0">
+              <p>
+                Designed in
+                <a
+                  href="https://www.figma.com/"
+                  class="font-medium text-neutral-400 hover:text-red-300 focus-visible:text-red-300 hover:underline"
+                  target="_blank"
+                  rel="noreferrer">Figma</a
+                >
+                and coded in
+                <a
+                  href="https://code.visualstudio.com/"
+                  class="font-medium text-neutral-400 hover:text-red-300 focus-visible:text-red-300 hover:underline"
+                  target="_blank"
+                  rel="noreferrer">Visual Studio Code</a
+                >
+              </p>
+            </footer>
           </section>
-          <footer class="max-w-md pb-16 text-sm text-neutral-500 sm:pb-0">
-            <p>
-              Designed in
-              <a
-                href="https://www.figma.com/"
-                class="font-medium text-neutral-400 hover:text-red-300 focus-visible:text-red-300 hover:underline"
-                target="_blank"
-                rel="noreferrer">Figma</a
-              >
-              and coded in
-              <a
-                href="https://code.visualstudio.com/"
-                class="font-medium text-neutral-400 hover:text-red-300 focus-visible:text-red-300 hover:underline"
-                target="_blank"
-                rel="noreferrer">Visual Studio Code</a
-              >
-            </p>
-          </footer>
         </main>
       </div>
     </div>
+
+    <footer class="text-center py-4 text-xs">
+      {new Date().getFullYear()} All rights reserved.
+    </footer>
   </div>
 
-  <footer class="text-center py-4 text-xs">
-    {new Date().getFullYear()} All rights reserved.
-  </footer>
+  <style scoped>
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .hero {
+      background-image: url(/pattern.svg);
+      background-position: top center;
+      background-repeat: no-repeat;
+      overflow-y: visible;
+      overflow-x: clip;
+    }
+
+    .hero {
+      animation: fadeIn 3s;
+    }
+
+    .lg\:text-6x1 {
+      line-height: 1.25;
+    }
+  </style>
 </Layout>
-
-<style scoped>
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-  .hero {
-    background-image: url(/pattern.svg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    overflow-y: visible;
-    overflow-x: clip;
-  }
-
-  .hero {
-    animation: fadeIn 3s;
-  }
-
-  .lg\:text-6x1 {
-    line-height: 1.25;
-  }
-</style>
