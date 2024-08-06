@@ -29,7 +29,7 @@ export const EXPERIENCE: ExperienceProp[] = [
     companyUrl: "https://grupotecnomarket.com/",
     description:
       "Como especialista en computación e informática, diseñé y gestioné sistemas de software y hardware para automatizar tareas rutinarias y garantizar datos precisos y oportunos, contribuyendo a mejorar la rentabilidad de la empresa. En el área de helpdesk y soporte IT, lideré el equipo para resolver incidencias de manera eficiente, asegurando el cumplimiento de los acuerdos de nivel de servicio. Supervisé la implementación de soluciones tecnológicas y capacité al personal, optimizando la experiencia del usuario y minimizando el tiempo de inactividad.",
-    technologies: [
+    technologies: ["Figma",
       "React JS",
       "Astro",
       "Node JS",
@@ -51,7 +51,7 @@ export const EXPERIENCE: ExperienceProp[] = [
     companyUrl: "https://abinsa.com/",
     description:
       "Como asistente informático, brindé soporte IT crucial para asegurar el funcionamiento eficiente de sistemas y aplicaciones. Resolví incidencias técnicas y gestioné solicitudes de soporte, garantizando una rápida resolución de problemas. Mi rol incluyó la configuración de hardware y software, la capacitación de usuarios y la documentación de procedimientos. Contribuí a la mejora continua de las infraestructuras IT, optimizando la disponibilidad de datos y minimizando tiempos de inactividad.",
-    technologies: ["Figma",
+    technologies: [
       "Html",
       "Css",
       "javascript",
